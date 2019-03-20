@@ -21,4 +21,8 @@ export const TopMenuWrapper = styled.nav`
       color: var(--color-gray-header);
     }
   }
+
+  .top-menu__label {
+    padding: 0 0.5rem;
+  }
 `;
