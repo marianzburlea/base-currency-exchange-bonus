@@ -3,7 +3,6 @@
   --color-border: #2c2c2c;
   --color-light: #fff;
   --color-dark: #333333;
-  --color-supernova: #f3f3f3;
   --color-currency: #007acc;
   --color-text-background: #b2d7ef;
 }
@@ -29,13 +28,6 @@ html {
   border: 0.1rem solid var(--color-border);
   border-radius: 0.5rem;
   overflow: hidden;
-}
-
-footer {
-  text-align: center;
-  font-size: 12px;
-  color: var(--color-text-background);
-  margin: 1rem;
 }
 
 code {

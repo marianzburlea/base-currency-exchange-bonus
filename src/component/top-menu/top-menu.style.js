@@ -14,6 +14,7 @@ export const TopMenuWrapper = styled.nav`
     width: 100%;
     text-align: center;
     transition: 0.3s;
+    font-weight: bold;
 
     &:hover {
       background-color: var(--color-dark);

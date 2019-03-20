@@ -4,11 +4,14 @@ import { Router } from "@reach/router";
 import HomePage from "./component/home-page";
 import About from "./component/about";
 import ExchangeRate from "./component/exchange-rate";
+import Footer from "./component/footer";
+import ThemeSwitch from "./component/theme-switch";
 
 const ExchangeRateApp = () => {
   return (
     <>
       <div className="content">
+        <ThemeSwitch />
         <TopMenu />
         <Router primary={false}>
           <HomePage path="/" />
@@ -16,7 +19,7 @@ const ExchangeRateApp = () => {
           <ExchangeRate path="/exchange" />
         </Router>
       </div>
-      <footer>&copy; {+new Date().getFullYear()} ExchangeRator</footer>
+      <Footer />
     </>
   );
 };

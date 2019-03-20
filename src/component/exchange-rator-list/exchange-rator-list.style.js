@@ -19,8 +19,10 @@ export const RateStyledList = styled.div`
     flex-basis: 10%;
     flex-grow: 1;
     overflow: hidden;
+    transition: 0.2s;
 
     &::before {
+      transition: 0.2s;
       position: absolute;
       top: 0;
       bottom: 0;
