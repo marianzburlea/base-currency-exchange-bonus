@@ -1,12 +1,7 @@
 import styled from "styled-components";
 
 export const TopMenuWrapper = styled.nav`
-  background: linear-gradient(
-    to bottom,
-    var(--color-rose) 0%,
-    var(--color-lipstick) 60%,
-    var(--color-wild-strawberry) 100%
-  );
+  background-color: var(--color-gray-header);
   transition: 0.1s;
   display: flex;
   justify-content: space-around;
@@ -15,17 +10,14 @@ export const TopMenuWrapper = styled.nav`
   a {
     padding: 1rem 0;
     text-decoration: none;
-    color: var(--color-light);
+    color: var(--color-dark);
     width: 100%;
     text-align: center;
+    transition: 0.3s;
 
     &:hover {
-      background: linear-gradient(
-        to bottom,
-        var(--color-lipstick) 0%,
-        var(--color-rose) 60%,
-        var(--color-wild-strawberry) 100%
-      );
+      background-color: var(--color-dark);
+      color: var(--color-gray-header);
     }
   }
 `;

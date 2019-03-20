@@ -1,13 +1,11 @@
 :root {
-  --color-rose: #ff0087;
-  --color-lipstick: #cc006c;
-  --color-wild-strawberry: #ff329f;
+  --color-gray-header: #dddddd;
+  --color-border: #2c2c2c;
   --color-light: #fff;
-  --color-dark: #000;
-  --color-bourbon: #c17219;
-  --color-supernova: #ffc410;
-  --color-yellow: #fff300;
-  --color-antique-bronze: #734d04;
+  --color-dark: #333333;
+  --color-supernova: #f3f3f3;
+  --color-currency: #007acc;
+  --color-text-background: #b2d7ef;
 }
 
 body,
@@ -19,7 +17,7 @@ html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--color-bourbon);
+  background-color: var(--color-light);
 }
 
 #this-is-where-mr-awesome-react-will-render {
@@ -28,7 +26,7 @@ html {
 
 .content {
   background-color: var(--color-supernova);
-  border: 0.1rem solid var(--color-lipstick);
+  border: 0.1rem solid var(--color-border);
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -36,7 +34,7 @@ html {
 footer {
   text-align: center;
   font-size: 12px;
-  color: var(--color-antique-bronze);
+  color: var(--color-text-background);
   margin: 1rem;
 }
 

@@ -7,8 +7,8 @@ export const RateStyledList = styled.div`
   grid-row-start: 2;
 
   .rate-list-item {
-    border: 2px solid var(--color-antique-bronze);
-    background-color: var(--color-antique-bronze);
+    border: 2px solid var(--color-currency);
+    background-color: var(--color-currency);
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     margin: 0.5rem;
@@ -30,7 +30,7 @@ export const RateStyledList = styled.div`
       justify-content: center;
       width: 60px;
       content: attr(data-key);
-      background-color: var(--color-yellow);
+      background-color: var(--color-text-background);
       color: var(--color-dark);
     }
   }
