@@ -25,6 +25,12 @@ export const RateItemStyled = styled.div`
   font-weight: ${({ selected }) => (selected ? "bold" : "normal")};
   text-shadow: ${({ selected }) =>
     selected ? "1px 1px 1px var(--color-dark)" : "unset"};
+  display: flex;
+  justify-content: space-between;
+
+  &:hover span {
+    color: var(--color-dark);
+  }
 
   &::before {
     transition: 0.2s;

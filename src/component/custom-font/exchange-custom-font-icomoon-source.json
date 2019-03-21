@@ -515,7 +515,10 @@
           "ligatures": "calendar, date",
           "name": "calendar",
           "id": 83,
-          "order": 0
+          "order": 5,
+          "prevSize": 32,
+          "code": 59731,
+          "tempChar": ""
         },
         {
           "ligatures": "printer, print",
@@ -1628,7 +1631,7 @@
           "order": 4,
           "prevSize": 32,
           "code": 59916,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "cancel-circle, close",

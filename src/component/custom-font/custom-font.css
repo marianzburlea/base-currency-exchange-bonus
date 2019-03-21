@@ -29,6 +29,9 @@
 .exchange-coin-pound:before {
   content: "\e93d";
 }
+.exchange-calendar:before {
+  content: "\e953";
+}
 .exchange-info:before {
   content: "\ea0c";
 }

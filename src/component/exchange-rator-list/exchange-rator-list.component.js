@@ -24,6 +24,7 @@ const ExchangeRatorList = ({ rateList }) => {
           selected={currentRate === rateKey}
         >
           {getNiceNumber(rateList[rateKey], 4, rateKey)}
+          <span className="exchange-calendar" />
         </RateItemStyled>
       ))}
     </RateListStyled>
