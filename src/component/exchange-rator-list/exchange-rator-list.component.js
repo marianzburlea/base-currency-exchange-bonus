@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { RateStyledList } from "./exchange-rator-list.style";
+import { RateListStyled, RateItemStyled } from "./exchange-rator-list.style";
 import { DispatchContext, getState } from "../../redux";
 import { setCurrentRate } from "./exchange-rator-list.action";
 
@@ -14,17 +14,18 @@ const ExchangeRatorList = ({ rateList }) => {
       currency
     }).format(~~(n * Math.pow(10, decimal)) / Math.pow(10, decimal));
   return (
-    <RateStyledList>
+    <RateListStyled>
       {Object.keys(rateList).map(rateKey => (
-        <div
+        <RateItemStyled
           className="rate-list-item"
           onClick={() => updateRate(rateKey)}
           data-key={rateKey}
+          selected={currentRate === rateKey}
         >
           {getNiceNumber(rateList[rateKey], 4, rateKey)}
-        </div>
+        </RateItemStyled>
       ))}
-    </RateStyledList>
+    </RateListStyled>
   );
 };
 
