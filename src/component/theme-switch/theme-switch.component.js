@@ -24,9 +24,10 @@ const ThemeSwitch = () => {
   }, []);
   return (
     <ThemeSwitchStyledWrapper>
-      {themeList.map(({ name, colorList }) => (
+      {themeList.map(({ name, colorList }, key) => (
         <ThemeSwitchStyled
           href="#"
+          key={key}
           color={colorList["--color-currency"]}
           onClick={() => switchTheme(colorList)}
           title={name}

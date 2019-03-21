@@ -17,6 +17,7 @@ const ExchangeRatorList = ({ rateList }) => {
     <RateListStyled>
       {Object.keys(rateList).map(rateKey => (
         <RateItemStyled
+          key={rateKey}
           className="rate-list-item"
           onClick={() => updateRate(rateKey)}
           data-key={rateKey}
