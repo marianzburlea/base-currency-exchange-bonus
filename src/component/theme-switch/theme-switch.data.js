@@ -1,5 +1,16 @@
 export const themeList = [
   {
+    name: "Lochmara",
+    colorList: {
+      "--color-border": "#2c2c2c",
+      "--color-dark": "#333333",
+      "--color-gray-header": "#dddddd",
+      "--color-text-background": "#b2d7ef",
+      "--color-currency": "#007acc",
+      "--color-light": "#fff"
+    }
+  },
+  {
     name: "Baby Blue",
     colorList: {
       "--color-border": "#fbe8a6",
@@ -52,17 +63,6 @@ export const themeList = [
       "--color-text-background": "#66fcf1",
       "--color-currency": "#45a29e",
       "--color-light": "#fff"
-    }
-  },
-  {
-    name: "Lochmara",
-    colorList: {
-      "--color-gray-header": "#dddddd",
-      "--color-border": "#2c2c2c",
-      "--color-light": "#fff",
-      "--color-dark": "#333333",
-      "--color-currency": "#007acc",
-      "--color-text-background": "#b2d7ef"
     }
   }
 ];

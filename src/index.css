@@ -1,12 +1,3 @@
-:root {
-  --color-gray-header: #dddddd;
-  --color-border: #2c2c2c;
-  --color-light: #fff;
-  --color-dark: #333333;
-  --color-currency: #007acc;
-  --color-text-background: #b2d7ef;
-}
-
 body,
 html {
   margin: 0;
