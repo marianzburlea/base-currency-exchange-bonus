@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { API_URL } from "./exchange-rate.const";
-import { getCurrentDate } from "./exchange-rate.util";
+import { getCurrentDate } from "../util/date.util";
 import InputText from "../input-text";
 import ExchangeRatorList from "../exchange-rator-list";
 import { ExchangeRateStyled } from "./exchange-rate.style";
 import { getState } from "../../redux";
 
 const ExchangeRate = () => {
-  // const defaultValue = "GBP";
   const { currentRate } = getState("currentRate");
   const [date, setDate] = useState(getCurrentDate());
   const [rates, setRates] = useState({});

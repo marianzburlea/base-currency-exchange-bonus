@@ -5,6 +5,16 @@ export const RateListStyled = styled.div`
   flex-wrap: wrap;
   grid-column: 1/5;
   grid-row-start: 2;
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h4 {
+      flex-grow: 1;
+    }
+  }
 `;
 
 export const RateItemStyled = styled.div`

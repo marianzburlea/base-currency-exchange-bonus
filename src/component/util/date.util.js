@@ -1,5 +1,9 @@
-export const getCurrentDate = () => {
+export const getCurrentDate = timeAgo => {
   const currentDate = new Date();
+
+  if (timeAgo === "last-year") {
+    currentDate.setTime(currentDate.getTime() - 60 * 60 * 24 * 365 * 1000);
+  }
 
   const fullYear = currentDate.getFullYear();
   const month = currentDate.getMonth() + 1 + "";
