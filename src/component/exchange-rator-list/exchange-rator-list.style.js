@@ -20,6 +20,7 @@ export const RateStyledList = styled.div`
     flex-grow: 1;
     overflow: hidden;
     transition: 0.2s;
+    cursor: pointer;
 
     &::before {
       transition: 0.2s;
